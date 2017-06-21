@@ -75,8 +75,27 @@
 	margin: 0 auto;
 
 }
+.link {
+	font-family: 'Spectral', serif;
+	font-size: 1.3rem;
+	float: right;
+	padding: 10px;
+	color: #d24260;
+}
+.quote {
+	border: none;
+	padding: 15px;
+}
+.quote-describe {
+	display: inline;
+
+}
+.glasses {
+	margin: 20px;
+}
 .first {
 	padding: 15px;
+	margin: 10px;
 }
 .article-contents {
 	font-family: 'Spectral', serif;
@@ -89,9 +108,27 @@
 }
 .second {
 	padding: 15px;
+	margin: 10px;
+}
+.miniature {
+	width: 64px;
+	height: 64px;
+	padding: 15px;
+	float: left;
+	box-sizing: content-box;
+}
+.img-title {
+	font-family: 'Spectral', serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.img-describe {
+	font-family: 'Spectral', serif;
+	font-size: 1.3rem;
 }
 .third {
 	padding: 15px;
+	margin: 10px;
 }
 
 
