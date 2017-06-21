@@ -1,0 +1,103 @@
+.header {
+	background-color: black;
+	}
+.title {
+	background-color: black;
+	padding: 35px;
+	}
+.main-title {
+	font-size: 4.2rem;
+	font-family: 'Spectral', serif;
+	padding: 15px;
+    margin: 10px;
+    color: white;
+}
+.social-icon {
+	float: left;
+	padding: 25px 15px 15px 250px;
+}
+.social {
+	float: right;
+	list-style: none;
+	padding: 10px;
+}
+.search {
+	float: right;
+	margin: 30px 100px 30px 30px;
+	background-color: #d24260;
+	border-radius: 15px;
+	border-color: transparent;
+	background-image: url(Image/search.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.nav {
+	background: linear-gradient(grey, black);
+	width: 100%;
+	padding-left: 50px;
+}
+.nav-item {
+	border-left: solid 1px white;
+	padding-right: 30px;
+}
+.nav-item:hover {
+	border-left: solid 1px white;
+	background-color: transparent;
+}
+.nav-link {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.nav-link:hover {
+	text-align: center;
+	text-transform: uppercase;
+	color: #d24260;
+	background-color: transparent;
+}
+.slide {
+	margin: 0 auto;
+}
+
+.about-us {
+	background-color: #1b1b1b;
+}
+.about-title {
+	padding-bottom: 20px;
+	font-size: 2.6rem;
+	font-family: 'Spectral', serif;
+	text-align: center;
+	color: white
+}
+.we {
+	width: 290px;
+	height: 140px;
+	margin: 0 auto;
+
+}
+.first {
+	padding: 15px;
+}
+.article-contents {
+	font-family: 'Spectral', serif;
+	font-size: 1.3rem;
+	padding-top: 20px;
+	text-align: justify;
+	width: 290px;
+	margin: 0 auto;
+	color: white
+}
+.second {
+	padding: 15px;
+}
+.third {
+	padding: 15px;
+}
+
+
+@media screen and (max-width: 780px) {
+	.social-icon {
+		    float: left;
+    		padding: 25px 15px 15px 25px;
+	}
+}
